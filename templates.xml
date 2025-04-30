@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="openthread_dali_plus_main_device" label="OpenThread - DALI+ Communication (Main Device)" description="This example demonstrates how to configure the Main Device to enable DALI+ communication over OpenThread.">
+    <properties key="namespace" value="template.uc"/>
+    <properties key="keywords" value="universal\ configurator"/>
+    <properties key="solutionReferenceId" value="openthread_dali_plus.SimplicityStudio.openthread_dali_plus_main_device.slcp"/>
+    <properties key="projectFilePaths" value="openthread_dali_plus/SimplicityStudio/openthread_dali_plus_main_device.slcp"/>
+    <properties key="readmeFiles" value="openthread_dali_plus/README.md"/>
+    <properties key="boardCompatibility" value="brd2703a brd2601b com.silabs.board.none"/>
+    <properties key="partCompatibility" value=".*efr32mg24.*"/>
+    <properties key="ideCompatibility" value="generic-template iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
+    <properties key="toolchainCompatibility" value="gcc iar segger"/>
+    <properties key="category" value="Example|Thread"/>
+    <properties key="quality" value="EXPERIMENTAL"/>
+    <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+    <properties key="filters" value="Device\ Type|SoC MCU|32-bit\ MCU Project\ Difficulty|Beginner\ Wireless Techonology|Thread"/>
+  </descriptors>
+  <descriptors name="openthread_dali_plus_secondary_device" label="OpenThread - DALI+ Communication (Secondary Device)" description="This example demonstrates how to configure the Secondary Device to enable DALI+ communication over OpenThread.">
+    <properties key="namespace" value="template.uc"/>
+    <properties key="keywords" value="universal\ configurator"/>
+    <properties key="solutionReferenceId" value="openthread_dali_plus.SimplicityStudio.openthread_dali_plus_secondary_device.slcp"/>
+    <properties key="projectFilePaths" value="openthread_dali_plus/SimplicityStudio/openthread_dali_plus_secondary_device.slcp"/>
+    <properties key="readmeFiles" value="openthread_dali_plus/README.md"/>
+    <properties key="boardCompatibility" value="brd2703a brd2601b com.silabs.board.none"/>
+    <properties key="partCompatibility" value=".*efr32mg24.*"/>
+    <properties key="ideCompatibility" value="generic-template iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
+    <properties key="toolchainCompatibility" value="gcc iar segger"/>
+    <properties key="category" value="Example|Thread"/>
+    <properties key="quality" value="EXPERIMENTAL"/>
+    <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+    <properties key="filters" value="Device\ Type|SoC MCU|32-bit\ MCU Project\ Difficulty|Beginner\ Wireless Techonology|Thread"/>
+  </descriptors>
+</model:MDescriptors>

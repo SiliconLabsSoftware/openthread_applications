@@ -1,0 +1,78 @@
+project_name: openthread_dali_plus_secondary_device
+label: OpenThread - DALI+ Communication (Secondary Device)
+package: openthread
+description: |
+  This example demonstrates a DALI+ protocol Secondary Device implementation. Instead of traditional DALI communication using Manchester encoding, DALI+ transmits its messages over OpenThread, an IPv6-based mesh networking protocol. 
+
+category: Example|Thread
+
+filter:
+- name: Device Type
+  value: [SoC]
+- name: MCU
+  value: [32-bit MCU]
+- name: Project Difficulty
+  value: [Beginner]
+- name: Wireless Technology
+  value: [Thread]
+
+quality: experimental
+
+readme:
+- path: ../README.md
+
+source:
+- path: ../src/daliplus.c
+  directory: "src"
+- path: ../src/main.c
+- path: ../src/secondary_device/app.c
+
+include:
+- path: ''
+  file_list:
+  - path: ../inc/app.h
+- path: ../inc
+  file_list:
+  - path: daliplus_config.h
+  - path: daliplus.h
+  directory: "inc"
+
+component:
+- id: app_log
+- id: clock_manager
+- id: device_init
+- id: ot_stack_ftd
+- id: simple_button
+  instance: [btn0]
+- id: sl_system
+
+configuration: 
+- name: SL_STACK_SIZE
+  value: "8196"
+- name: CIRCULAR_QUEUE_LEN_MAX
+  value: "16"
+- name: OPENTHREAD_CONFIG_COAP_API_ENABLE
+  value: "1"
+- name: OPENTHREAD_CONFIG_JOINER_ENABLE
+  value: "1"
+- name: SL_MBEDTLS_KEY_EXCHANGE_PSK_ENABLED
+  value: "1"
+- name: SL_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED
+  value: "1"
+
+other_file:
+  - path: ../image/structure.png
+    directory: "image"
+  - path: ../image/result.png
+    directory: "image"
+  - path: ../image/instruction.png
+    directory: "image"
+
+define:
+  - name: DEBUG_EFM
+
+ui_hints:
+  highlight:
+  - path: README.md
+    focus: true
+

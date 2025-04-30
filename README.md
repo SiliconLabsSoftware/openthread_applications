@@ -13,11 +13,17 @@
 
 # Silicon Labs OpenThread Applications #
 
+[![Version Badge](https://img.shields.io/badge/-v1.0.0-green)](https://github.com/SiliconLabs/openthread_applications/releases)
+[![SDK Badge](https://img.shields.io/badge/SiSDK-v2024.12.0-green)](https://github.com/SiliconLabs/simplicity_sdk/releases)
+![License badge](https://img.shields.io/badge/License-Zlib-green)
+
 The Silicon Labs OpenThread stack allows for a wide variety applications to be built on its foundation. This repo showcases some example applications built using the Silicon Labs OpenThread stack.
 
 ## Examples ##
 
-- Example 1
+| No | Example name | Link to example |
+|:--:|:-------------|:---------------:|
+| 1  | OpenThread - DALI+ Communication | [Click Here](./openthread_dali_plus) |
 
 ## Documentation ##
 
@@ -31,4 +37,4 @@ Questions and comments related to these examples should be made by creating a ne
 
 ## Disclaimer ##
 
-The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is.  It is not suitable for production environments.  In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.
+The Simplicity SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is.  It is not suitable for production environments.  In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.
