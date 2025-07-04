@@ -13,7 +13,7 @@
 
 # Silicon Labs OpenThread Applications #
 
-[![Version Badge](https://img.shields.io/badge/-v1.0.0-green)](https://github.com/SiliconLabs/openthread_applications/releases)
+[![Version Badge](https://img.shields.io/badge/-v1.0.1-green)](https://github.com/SiliconLabsSoftware/openthread_applications/releases)
 [![SDK Badge](https://img.shields.io/badge/SiSDK-v2024.12.0-green)](https://github.com/SiliconLabs/simplicity_sdk/releases)
 ![License badge](https://img.shields.io/badge/License-Zlib-green)
 
